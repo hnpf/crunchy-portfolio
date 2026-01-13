@@ -1,8 +1,10 @@
 <div align="center">
-  <a href="https://virex.lol">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Made+with+love+-+virex" alt="Typing SVG" />
-  </a>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Made+with+love+-+virex)](https://git.io/typing-svg)
 </div>
+### 🛠 stack
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
 
 # Run and deploy
 
@@ -20,7 +22,9 @@
    `npm install`
 2. Run the app:
    `npm run dev`
-
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=hnpf&show_icons=true&theme=tokyonight" alt="søren's stats" />
+</div>
 
 ## License
 

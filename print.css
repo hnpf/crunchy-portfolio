@@ -1,0 +1,27 @@
+@media print {
+  .print-hidden {
+    display: none;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  .sidebar, .settings-menu {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .hand-drawn {
+    text-decoration: none !important;
+  }
+
+  .sketch-card, .sketch-border {
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+  }
+}

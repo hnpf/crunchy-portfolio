@@ -34,9 +34,9 @@ Prerequisites: Node.js
 npm install
 
 Start dev server
-Bash
+```Bash
 
-    npm run dev
+    npm run dev```
 
 <div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=hnpf&show_icons=true&theme=tokyonight" alt="stats" /> </div>
 

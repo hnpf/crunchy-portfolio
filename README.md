@@ -74,7 +74,9 @@ Bash
 
     npm run dev
 
-<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=hnpf&show_icons=true&theme=tokyonight" alt="stats" /> </div>
+<div align="center"> 
+  <img src="https://github-readme-stats.vercel.app/api?username=hnpf&show_icons=true&theme=tokyonight" alt="stats" /> 
+</div>
 
 ## License
 

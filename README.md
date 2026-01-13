@@ -1,5 +1,7 @@
 <div align="center">
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Made+with+love+-+virex)](https://git.io/typing-svg)
+  <a href="https://virex.lol">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Made+with+love+-+virex" alt="Typing SVG" />
+  </a>
 </div>
 
 # Run and deploy

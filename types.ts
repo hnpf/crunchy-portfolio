@@ -48,4 +48,5 @@ export interface SiteSettings {
   animationType: 'spring' | 'smooth' | 'snappy';
   searchEngine: string;
   openSearchInNewTab: boolean;
+  availableSearchEngines: string[];
 }

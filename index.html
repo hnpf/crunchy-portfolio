@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VIREX | Crunchy Material</title>
+  <title>VIREX</title>
   <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png">
@@ -38,6 +38,8 @@
       --secondary-color: #f7b05b;
       --global-radius: 12px;
       --sketch-radius: 30px;
+      scrollbar-color: var(--primary-color) transparent;
+      scrollbar-width: thin;
     }
 
     html, body {
@@ -47,7 +49,6 @@
 
     body {
       font-family: 'Plus Jakarta Sans', sans-serif;
-      overflow: hidden;
       transition: background-color 0.3s ease, color 0.3s ease;
       user-select: none; /* disallow text selection */
     }
@@ -152,7 +153,8 @@
     "react/": "https://esm.sh/react@^19.2.3/",
     "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
     "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
-    "react-router-dom": "https://esm.sh/react-router-dom@^7.12.0"
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.12.0",
+    "framer-motion": "https://esm.sh/framer-motion@11.3.8"
   }
 }
 </script>

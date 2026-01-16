@@ -73,10 +73,110 @@ export const EXPERIENCE: Experience[] = [
 ];
 
 export const OPINIONS: Opinion[] = [
+
+  {
+    id: '7',
+    title: 'The web is cooked (..And we are the ones smelling the smoke)',
+    snippet: 'Why does a site need more processing power than the apollo 11 moon landing?? The state of web dev is actually embarrassing.',
+    content: `
+# The modern web is basically malware at this point.
+
+I was looking at a "minimalist" landing page the other day and the dev tools showed **12mb of javascript**. For a page with three buttons and a logo. Are we okay?
+
+* Developers are importing entire ecosystems just to handle a toggle menu. If you need 500kb of react code for a STATIC site, you aren't an engineer.
+* 60% of your load time is just a dozen different analytics scripts trying to figure out how long you hovered over a "buy now" button. 
+* We've reached a point where we have frameworks to fix the performance issues caused by the *other* frameworks we're already using. 
+
+I built virex.lol to be fast because I actually respect your hardware. The average webpage in 2026 is over 2.5mb, most of which is just "management overhead" and ads. 
+
+We don't need more "ai-native" features or 3d micro interactions. We need people to remember how to write a basic media query and ship some damn html once in a while, even if it's ugly.
+
+If your site takes more than 2 seconds to be interactive on a 4g connection, you didn't build a website. Please stop!!!
+    `,
+    date: 'Jan 14, 2026',
+    category: 'Dev',
+    readTime: '2 min read',
+    votes: { up: 0, down: 0 },
+    link: 'the-web-is-cooked'
+  },
+
+  {
+    id: '6',
+    title: 'Your cloud is just someone elses computer.',
+    snippet: 'This is why i hoard data (and you should too)',
+    content: `
+# Stop trusting corporations to keep your data safe. 
+
+I have massive amounts of storage for a reason. People think im crazy for archiving games, software, and gallery backups, but have you even seen the state of the internet lately?
+People call me crazy until it actually comes useful and you lose stuff forever. The internet is made to have temporary-first data.
+
+* If it's on my drive, no one can "un-license" it or edit the content after the fact.
+* Paying $15 a month for a library that changes every week is a joke.
+* I keep games, movies, music, tools, and old software because once they're gone from the main web, they're gone FOREVER.
+
+I'm running huge amounts of storage on my local rig for a reason. It's not just about hoarding. It's about digital sovereignty. Plus, having local access to my entire music and libraries without worrying about deletion or "Site is down" is a huge advantage.
+
+Everyone is so comfortable with streaming and cloud storage until the servers go dark, the license expires, or even worse? Data loss. They don't care about your files, they care about your subscription. That is why I archive everything!
+    `,
+    date: 'Jan 14, 2026',
+    category: 'Tech',
+    readTime: '3 min read',
+    votes: { up: 0, down: 0 },
+    link: 'cloud-is-someone-elses-computer'
+  },
+  {
+    id: '5',
+    title: 'Why I actually use Arch.. (and it’s not for the meme)',
+    snippet: 'Everyone thinks Arch users just want to flex their Neofetch, but I actually just want a system that doesnt hand bs over to me...',
+    content: `
+# Why Arch? (unironically)
+
+Honestly if I were to see one more person say "I use Arch btw" as a joke I might actually lose it. On a serious note, I use it because I dont want some random distro maintainer deciding what packages I need to have installed.
+
+* **No bloat:** I have exactly what I need and nothing else. 
+* **The Wiki:** Literally the holy grail of 'perfect' documentation. If it’s not in the wiki, it probably doesnt even exist.
+* **Rolling release:** Yes, I want the latest kernel features immediately, and NOT in six months when the "stable" release feels like prehistoric technology.
+
+My current rig is running an RX 6800xt and an i5 14600k, and honestly, setting up the drivers manually (Which is still incredibly easy) is much better than fighting a "user-friendly" os that tries to hide the literal config files from you. 
+
+If you want to spend your life clicking "remind me later" on ANY operating system updates, go for it. I'll just be over here actually owning my hardware.
+    `,
+    date: 'Jan 14, 2026',
+    category: 'Tech',
+    readTime: '2 min read',
+    votes: { up: 0, down: 0 },
+    link: 'why-i-actually-use-arch'
+  },
+{
+    id: '8',
+    title: 'The internet is dead.',
+    snippet: 'If you think you are talking to real people on the big platforms anymore, I have a bridge to sell you.',
+    content: `
+# This is why I self host my website.
+
+I've been looking at the traffic patterns on the major socials and it's literally just bots talking to bots. 
+It's now just a loop of ai-generated slop being consumed by ai-generated scrapers. Dystopian right?
+
+* You post a thought, and three seconds later, five "blue checks" with generic ai names reply with something vaguely related.
+* We aren't even being shown what's good anymore, rather, we're just being shown what keeps us scrolling for 0.5 seconds longer. 
+* You can't have a debate anymore because the "person" you are arguing with is probably a clanker running on a server in a basement somewhere.
+
+
+Everyone is so obsessed with "The future of AI" that they didn't even notice it already killed the world wide web.
+
+Go outside. Or at least close a tab. There is soon going to be nothing left for us here.
+    `,
+    date: 'Jan 12, 2026',
+    category: 'Opinion',
+    readTime: '2 min read',
+    votes: { up: 66, down: 6 },
+    link: 'the-internet-is-dead'
+  },
+
   {
     id: '4',
-    title: 'the epstein "files" is a joke lol',
-    snippet: 'so the DOJ finally dropped the files and... surprise! it’s basically just 50 pages of ONLY blacked out text...',
+  title: 'The epstein "files" is a joke!',
+    snippet: 'So the DOJ finally dropped the files and... surprise! it’s basically just 50 pages of ONLY blacked out text...',
     content: `
 # The most transparent administration I guess?
 
@@ -95,7 +195,7 @@ It's honestly really embarrassing how much effort is going into hiding names whe
     date: 'Dec 21, 2025',
     category: 'News',
     readTime: '3 min read',
-    votes: { up: 12, down: 2 },
+    votes: { up: 0, down: 0 },
     link: 'epstein-files-is-a-joke'
   },
   {
@@ -115,7 +215,7 @@ It's literally just people helping people for learning (and overall better code)
     date: 'Nov 12, 2025',
     category: 'Tech',
     readTime: '1 min read',
-    votes: { up: 45, down: 0 },
+    votes: { up: 0, down: 0 },
     link: 'why-i-love-open-source'
   },
   {
@@ -136,7 +236,7 @@ Stay tuned for more content!
     date: 'Nov 04, 2025',
     category: 'Tech',
     readTime: '2 min read',
-    votes: { up: 8, down: 0 },
+    votes: { up: 0, down: 0 },
     link: 'first-blog-post'
   }
 ];
@@ -144,7 +244,7 @@ Stay tuned for more content!
 export const IMAGES: Photo[] = [
   {
     src: '/photography/20241027_071257_optimized.jpg',
-    title: 'Florida Beach at Dawn (Real)',
+    title: 'Florida Beach at Dawn',
     date: 'october 2024',
     description: 'Super quiet morning by the beach. The light was so soft it felt fake, but I promise I didn’t render this.',
     tags: ['beach', 'nature', 'morning']
@@ -238,7 +338,7 @@ export const IMAGES: Photo[] = [
     title: 'Vintage Theatre Facade',
     date: 'september 2025',
     description: 'Old theatre that looks cooler than expected IRL. Serious architectural charm. Popcorn not included.',
-    tags: ['architecture', 'theatre']
+    tags: ['theatre']
   },
   {
     src: '/photography/20250920_191221.jpg',
@@ -382,10 +482,10 @@ export const IMAGES: Photo[] = [
   },
   {
     src: '/photography/1764261937737.jpg',
-    title: 'Someone got pulled over..',
+    title: 'License and registration',
     date: 'november 2025',
-    description: 'A cop pulled over some dude. I was there. I took a photo. Guy was probably speeding. I don’t care either way. I just took a photo!',
-    tags: ['cop', 'thanksgiving']
+    description: 'Not much to say, it is a decent point and shoot shot!',
+    tags: ['cops']
   },
   {
     src: '/photography/SGCAM_20251127_134227019.jpg',
@@ -443,6 +543,202 @@ export const IMAGES: Photo[] = [
     description: 'She looked really uncomfortable but she was totally cute, so worth the shot.. 112.26/10',
     tags: ['pug', 'honey', 'dog']
   },
+  {
+    src: '/photography/1768255601300.jpg',
+    title: 'Feline good',
+    date: 'january 2026',
+    description: 'kitty staring at camera / has watermark',
+    tags: ['kitty', 'pixel']
+  },
+  {
+    src: '/photography/PXL_20251224_213643656~2.jpg',
+    title: 'Pug fighting the camera',
+    date: 'january 2026',
+    description: 'Yes, she tried to fight the camera.',
+    tags: ['pug', 'adorable']
+  },
+  {
+    src: '/photography/PXL_20251225_133739921~2.jpg',
+    title: 'foggy morning',
+    date: 'january 2026',
+    description: 'another foggy morning, really liminal again.',
+    tags: ['fog', 'morning']
+  },
+  {
+    src: '/photography/PXL_20251225_133754491~2.jpg',
+    title: 'foggy morning II',
+    date: 'january 2026',
+    description: 'also another foggy morning, this one looks more stock',
+    tags: ['fog', 'morning']
+  },
+  {
+    src: '/photography/PXL_20251225_142558068~2.jpg',
+    title: 'Rocks.',
+    date: 'january 2026',
+    description: 'A really good shot of some rocks',
+    tags: ['rocks', 'dew']
+  },
+  {
+    src: '/photography/PXL_20251225_230447199~2.jpg',
+    title: 'road trip dump 1',
+    date: 'december 2025',
+    description: 'just a water tower, looks nice with the blur on the buildings.',
+    tags: ['dump', 'cityscape']
+  },
+  {
+    src: '/photography/PXL_20251225_230511241~2.jpg',
+    title: 'road trip dump 2',
+    date: 'december 2025',
+    description: 'a nice shot of some vintage looking hotel.',
+    tags: ['dump', 'cityscape']
+  },
+  {
+    src: '/photography/PXL_20251227_015111965.jpg',
+    title: 'Ink biting into a cricket!',
+    date: 'december 2025',
+    description: 'cycle of life, okay?',
+    tags: ['food', 'spider']
+  },
+  {
+    src: '/photography/PXL_20251227_021739429.jpg',
+    title: 'Ink biting into a cricket II',
+    date: 'december 2025',
+    description: 'this ones darker and another angle, kinda cinematic.',
+    tags: ['food', 'spider']
+  },
+  {
+    src: '/photography/PXL_20251230_074304887.PORTRAIT.jpg',
+    title: 'Desk preview one',
+    date: 'january 2026',
+    description: 'some basic portrait shot of my desk.',
+    tags: ['setup', 'desk']
+  },
+  {
+    src: '/photography/PXL_20251231_013358426.PORTRAIT~2.jpg',
+    title: 'paws',
+    date: 'january 2026',
+    description: 'kittys paws. really precious',
+    tags: ['paws', 'cat']
+  },
+  {
+    src: '/photography/PXL_20251231_235312192.jpg',
+    title: 'HDR sunset',
+    date: 'january 2026',
+    description: 'it was super bright and vivid',
+    tags: ['sunset', 'dump']
+  },
+  {
+    src: '/photography/PXL_20260103_002059679.BURST-01~2.jpg',
+    title: 'The Moon!',
+    date: 'january 2026',
+    description: 'really high definition, super cool!!',
+    tags: ['moon', 'space']
+  },
+  {
+    src: '/photography/PXL_20260103_235744667.PORTRAIT.jpg',
+    title: 'the gradient sunset',
+    date: 'january 2026',
+    description: 'honestly that sky blends really well, i love it',
+    tags: ['sunset', 'dump']
+  },
+  {
+    src: '/photography/PXL_20260107_181543166.jpg',
+    title: 'staring cat',
+    date: 'january 2026',
+    description: 'idk why he does that but its cute',
+    tags: ['cat', 'chair']
+  },
+  {
+    src: '/photography/PXL_20260107_192749765.PORTRAIT.jpg',
+    title: 'pug portrait',
+    date: 'january 2026',
+    description: 'i love the blur, makes it look nice.',
+    tags: ['pug', 'portrait']
+  },
+  {
+    src: '/photography/PXL_20260108_040856251.jpg',
+    title: 'Ink water droplet 1',
+    date: 'january 2026',
+    description: 'SO CUTE THERES WATER ON HER BACK!!!',
+    tags: ['spider', 'macro']
+  },
+  {
+    src: '/photography/PXL_20260108_040900573~2.jpg',
+    title: 'Ink water droplet 2',
+    date: 'january 2026',
+    description: 'this one has more quality and vivid colors, so cute!!',
+    tags: ['spider', 'macro']
+  },
+  {
+    src: '/photography/PXL_20260108_042253119.jpg',
+    title: 'rune coming out of her rock',
+    date: 'january 2026',
+    description: 'pet rock outside the rock, wow.',
+    tags: ['rune', 'cute']
+  },
+  {
+    src: '/photography/PXL_20260108_042328184.PORTRAIT~2.jpg',
+    title: 'rune coming out of her rock 2',
+    date: 'january 2026',
+    description: 'unreasonably dramatic. still super good quality!',
+    tags: ['rune', 'cute']
+  },
+  {
+    src: '/photography/PXL_20260110_235129332.jpg',
+    title: 'ink staring from her plant',
+    date: 'january 2026',
+    description: 'she ended up jumping at me and didnt succeed :(',
+    tags: ['ink', 'looking']
+  },
+  {
+    src: '/photography/PXL_20260110_235650661.PORTRAIT.jpg',
+    title: 'ink staring but from her roof',
+    date: 'january 2026',
+    description: 'shes so adorable when she does this omg',
+    tags: ['ink', 'looking']
+  },
+  {
+    src: '/photography/PXL_20260112_222349039.PORTRAIT.jpg',
+    title: 'pug with her toys - portrait',
+    date: 'january 2026',
+    description: 'not much to say, but yea shes scary',
+    tags: ['pug', 'couch']
+  },
+  {
+    src: '/photography/PXL_20260113_074317741.PORTRAIT~2.jpg',
+    title: 'desk setup 2',
+    date: 'january 2026',
+    description: 'ive recently moved those enclosures to the right.',
+    tags: ['desk', 'portrait']
+  },
+  {
+    src: '/photography/PXL_20260114_034330048.PORTRAIT.jpg',
+    title: 'ink eating a roach',
+    date: 'january 2026',
+    description: 'looks like theyre boxing kinda cool',
+    tags: ['ink', 'spider']
+  },
+  {
+    src: '/photography/PXL_20260114_052811593.PORTRAIT.ORIGINAL.jpg',
+    title: 'rune hiding with her leaves lol',
+    date: 'january 2026',
+    description: 'she does this often and then hides in her rock for a week.',
+    tags: ['rune', 'leaves']
+  },
+  {
+    src: '/photography/PXL_20260115_062158733.PORTRAIT.jpg',
+    title: 'rune exploring again',
+    date: 'january 2026',
+    description: 'you can really see her well here!',
+    tags: ['spider', 'activities']
+  },
+  {
+    src: '/photography/PXL_20260115_224356196.PORTRAIT.jpg',
+    title: 'sam being cute',
+    date: 'january 2026',
+    description: 'ig he wanted to be pet on the chest lol',
+    tags: ['cat', 'sam']
+  },
 
 ];
 
@@ -450,4 +746,35 @@ export const TECH_CATEGORIES = [
   { name: "Frontend Architecture", icon: Code, items: ["React 19", "TypeScript", "Tailwind CSS", "Three.js"] },
   { name: "Interface & Experience", icon: Layers, items: ["Material Design 3", "Framer Motion", "Design Systems"] },
   { name: "Systems & Infrastructure", icon: Server, items: ["Node.js", "Rust", "PostgreSQL", "Docker"] }
+];
+
+export const LOCAL_SEARCH_INDEX = [
+  {
+    title: "About VIREX",
+    content: "VIREX (HNPF) is a niche independent software researcher and full-stack developer semi-known for building purely for the love of the game, and expressive development architectures."
+  },
+  {
+    title: "Material Design 3",
+    content: "Material Design 3 is Google's best design system. It introduces 'Material You' which focuses on personalization through dynamic color and expressive shapes."
+  },
+  {
+    title: "Rust Programming",
+    content: "Rust is a systems programming language focused on safety, speed, and concurrency. It's the core of most high-performance self written projects."
+  },
+  {
+    title: "Photography Lens Module",
+    content: "The 'Lens' module contains captures of my personal life. All assets are stored locally in the vault ."
+  },
+  ...PROJECTS.map(project => ({
+    title: project.title,
+    content: `${project.description} ${project.tags.join(' ')}`
+  })),
+  ...EXPERIENCE.map(exp => ({
+    title: exp.role,
+    content: `${exp.description} ${exp.company}`
+  })),
+  ...OPINIONS.map(opinion => ({
+    title: opinion.title,
+    content: `${opinion.snippet} ${opinion.content} ${opinion.category}`
+  }))
 ];

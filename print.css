@@ -1,14 +1,26 @@
 @media print {
+  :root {
+    --primary-color: #000 !important;
+  }
+
+  @page {
+    size: A4;
+    margin: 2cm;
+  }
+
   .print-hidden {
-    display: none;
+    display: none !important;
   }
 
   body {
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff !important;
+    color: #000 !important;
+    font-size: 12pt;
   }
 
   .sidebar, .settings-menu {
-    display: none;
+    display: none !important;
   }
 
   a {
@@ -17,11 +29,48 @@
   }
 
   .hand-drawn {
+    font-family: 'Times New Roman', Times, serif !important;
     text-decoration: none !important;
+    font-style: italic;
   }
 
   .sketch-card, .sketch-border {
-    border: 1px solid #ccc !important;
+    border: 1px solid #000 !important;
     box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    color: #000 !important;
+  }
+
+  h1 { font-size: 24pt; }
+  h2 { font-size: 18pt; }
+  h3 { font-size: 14pt; }
+
+  .grid {
+    display: block !important;
+  }
+
+  .sketch-card {
+    page-break-inside: avoid;
+  }
+
+  section {
+    margin-bottom: 2rem;
+  }
+
+  .text-zinc-800, .dark\:text-zinc-200,
+  .text-zinc-600, .dark\:text-zinc-400,
+  .text-zinc-500, .dark\:text-zinc-400,
+  .text-zinc-700 {
+    color: #000 !important;
+  }
+
+  .bg-white, .dark\:bg-zinc-900,
+  .bg-zinc-100, .dark\:bg-zinc-800,
+  .bg-zinc-900 {
+    background-color: #fff !important;
   }
 }
